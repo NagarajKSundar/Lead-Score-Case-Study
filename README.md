@@ -22,3 +22,43 @@ There are quite a few goals for this case study:
 Build a logistic regression model to assign a lead score between 0 and 100 to each of the leads which can be used by the company to target potential leads. A higher score would mean that the lead is hot, i.e. is most likely to convert whereas a lower score would mean that the lead is cold and will mostly not get converted.
 There are some more problems presented by the company which your model should be able to adjust to if the company's requirement changes in the future so you will need to handle these as well. These problems are provided in a separate doc file. Please fill it based on the logistic regression model you got in the first step. Also, make sure you include this in your final PPT where you'll make recommendations.
 
+# Business Understanding
+- Understand the requirements of the Assignment.
+
+# Data Understanding
+- Understand the datasets provided.
+
+# Data Cleaning & Manipulation
+- Clean the data and perform some manipulation
+
+# Data Visualization
+- Perform EDA to gain a better understanding of the dataset and its various variables. This may include summary statistics, data visualizations, and data distribution analysis.
+- Check the correlation between the variables to understand the relationships and dependencies among them. You can create correlation matrices or visualizations to help with this analysis.
+
+# Data Preparation
+- Create dummy variables for all the categorical features to convert them into a numerical format suitable for modeling.
+- Divide the data into training and testing sets to facilitate model training and evaluation.
+- Perform data scaling to standardize or normalize the numerical features as necessary for the chosen algorithms.
+- Divide the data into dependent and independent variables, separating the target variable from the features for modeling.
+
+# Data Modeling & Evaluation
+- Create a Linear Regression model using a mixed approach that combines Recursive Feature Elimination (RFE) and Variable Inflation Factor (VIF) or p-value selection methods.
+- Ensure that the various assumptions of linear regression are checked, including linearity, independence of errors, homoscedasticity, and normality of residuals.
+- Evaluate the model's performance by checking metrics such as Accuracy, Sensitivity, Specificity, Precision, and Recall.
+- Report the final Linear Regression model, including the selected features, coefficients, and a summary of the model's performance.
+
+# Technologies Used
+- Jupyter Notebooks
+- Anaconda Navigator
+- GitHub
+- Matplotlib
+- Seaborn
+- NumPy
+- Pandas
+- Statsmodels
+- Scikit-learn
+
+
+
+
+
