@@ -22,6 +22,12 @@ There are quite a few goals for this case study:
 Build a logistic regression model to assign a lead score between 0 and 100 to each of the leads which can be used by the company to target potential leads. A higher score would mean that the lead is hot, i.e. is most likely to convert whereas a lower score would mean that the lead is cold and will mostly not get converted.
 There are some more problems presented by the company which your model should be able to adjust to if the company's requirement changes in the future so you will need to handle these as well. These problems are provided in a separate doc file. Please fill it based on the logistic regression model you got in the first step. Also, make sure you include this in your final PPT where you'll make recommendations.
 
+# Table of Contents
+General Info
+Technologies Used
+Conclusion
+
+# General Information:
 # Business Understanding
 - Understand the requirements of the Assignment.
 
@@ -57,6 +63,36 @@ There are some more problems presented by the company which your model should be
 - Pandas
 - Statsmodels
 - Scikit-learn
+
+# Conclusions :
+These are the key variables that play a significant role in the conversion rate
+
+Lead Source_Welingak Website                            6.508686
+Lead Source_Reference                                   4.233370
+Total Time Spent on Website                             3.417487
+What is your current occupation_Working Professional    2.648638
+Lead Origin_Lead Import                                 1.754495
+Lead Source_Olark Chat                                  1.399249
+Specialization_Others                                  -0.426853
+Last Notable Activity_Email Opened                     -1.425355
+Last Notable Activity_Page Visited on Website          -1.683992
+Do Not Email                                           -1.867923
+Last Notable Activity_Email Link Clicked               -1.891884
+Last Notable Activity_Modified                         -2.105825
+Last Notable Activity_Olark Chat Conversation          -2.730931
+
+# Recommendations for the company/CEO :
+- The company should prioritize leads from the sources "Welingak Websites" and "Reference", as they are more likely to result in conversions.
+
+- Leads who have spent a significant amount of time on the company's websites should be a primary focus, as their extended engagement indicates a higher conversion potential.
+
+- Targeting working professionals among the leads is advisable, as they tend to have a greater likelihood of conversion.
+
+- Special attention should be given to leads sourced from "Lead Import", as they demonstrate a higher chance of conversion.
+
+- It is recommended to focus efforts on leads sourced through "Olark Chat", as these leads are more likely to convert.
+
+- It is advisable for the company to refrain from contacting leads whose most recent interactions were categorized as "Email Opened", "Page Visited on Website", "Email Link Clicked", "Modified", or "Olark Chat Conversation", as these activities are less likely to result in conversions.
 
 
 
