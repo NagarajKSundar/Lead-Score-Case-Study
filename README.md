@@ -67,19 +67,21 @@ There are some more problems presented by the company which your model should be
 # Conclusions :
 These are the key variables that play a significant role in the conversion rate
 
-Lead Source_Welingak Website                            6.508686
-Lead Source_Reference                                   4.233370
-Total Time Spent on Website                             3.417487
-What is your current occupation_Working Professional    2.648638
-Lead Origin_Lead Import                                 1.754495
-Lead Source_Olark Chat                                  1.399249
-Specialization_Others                                  -0.426853
-Last Notable Activity_Email Opened                     -1.425355
-Last Notable Activity_Page Visited on Website          -1.683992
-Do Not Email                                           -1.867923
-Last Notable Activity_Email Link Clicked               -1.891884
-Last Notable Activity_Modified                         -2.105825
-Last Notable Activity_Olark Chat Conversation          -2.730931
+| Feature                                                | Coefficient   |
+|--------------------------------------------------------|---------------|
+| Lead Source_Welingak Website                            | 6.508686      |
+| Lead Source_Reference                                   | 4.233370      |
+| Total Time Spent on Website                             | 3.417487      |
+| What is your current occupation_Working Professional    | 2.648638      |
+| Lead Origin_Lead Import                                 | 1.754495      |
+| Lead Source_Olark Chat                                  | 1.399249      |
+| Specialization_Others                                   | -0.426853     |
+| Last Notable Activity_Email Opened                      | -1.425355     |
+| Last Notable Activity_Page Visited on Website           | -1.683992     |
+| Do Not Email                                            | -1.867923     |
+| Last Notable Activity_Email Link Clicked                | -1.891884     |
+| Last Notable Activity_Modified                          | -2.105825     |
+| Last Notable Activity_Olark Chat Conversation           | -2.730931     |
 
 # Recommendations for the company :
 - The company should prioritize leads from the sources "Welingak Websites" and "Reference", as they are more likely to result in conversions.
